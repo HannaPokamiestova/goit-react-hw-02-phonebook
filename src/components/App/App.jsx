@@ -3,6 +3,11 @@ import { nanoid } from 'nanoid';
 
 import { Container } from './App.styled';
 
+// import { Section } from 'components/Section';
+import { ContactForm } from 'components/ContactForm';
+import { Filter } from 'components/Filter';
+import { ContsctList } from 'components/ContactList';
+
 // export const App = () => {
 //   return (
 //     <div
