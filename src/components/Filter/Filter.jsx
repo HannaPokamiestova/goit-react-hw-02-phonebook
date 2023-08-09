@@ -4,10 +4,10 @@ import { Label, Input } from 'components/ContactForm/ContactForm.styled';
 
 export const Filter = ({ value, onChange }) => {
   return (
-    <FilterStyld>
+    <FilterStyled>
       <Label>Find contsct by name</Label>
       <Input type="text" name="filter" value={value} onChange={onChange} />
-    </FilterStyld>
+    </FilterStyled>
   );
 };
 Filter.propTypes = {
