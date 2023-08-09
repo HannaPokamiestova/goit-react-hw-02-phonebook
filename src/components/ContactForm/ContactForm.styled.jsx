@@ -27,6 +27,6 @@ export const Input = styled.input`
 
   :hover,
   :focus {
-    border-color: orange;
+    border-color: #008000e6;
   }
 `;
